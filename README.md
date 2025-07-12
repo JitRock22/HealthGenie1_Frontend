@@ -1,12 +1,49 @@
-# React + Vite
+# HealthGenie Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**HealthGenie1** is a modern, responsive frontend built with React and Vite, designed to support a health-focused web application. It offers fast development with hot-module reloading (HMR), clean code structure, and ESLint integration.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚡ **Fast Development** with Vite + React
+- 🔁 **Hot Module Replacement (HMR)**
+- 🧼 **ESLint** for code consistency
+- 🎨 Clean and modular component structure
+- 🧪 Ready for integration with APIs or backend services
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Tech Stack
+
+- **React** – UI Framework
+- **Vite** – Build Tool
+- **ESLint** – Linting
+- **JavaScript (ES6+)**
+- **HTML5**, **CSS3**
+
+---
+
+## 📦 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/JitRock22/HealthGenie1_Frontend.git
+cd HealthGenie1_Frontend
+npm install
+```
+## 🏃‍♂️ Running Locally
+To run the app locally in development mode:
+```bash
+npm run dev
+```
+
+##🤝 Contributing
+Contributions are welcome!
+
+- Fork the repo
+- Create a new branch (git checkout -b feature-name)
+- Commit your changes (git commit -m "add feature")
+- Push to your branch (git push origin feature-name)
+- Create a Pull Request
