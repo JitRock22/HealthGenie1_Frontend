@@ -6,7 +6,7 @@ const About = () => {
         <>
             <div id="about" className="flex flex-col md:flex-row items-center justify-between gap-2 md:gap-8 px-8 h-auto md:h-screen mt-10 md:mt-0">
                 <div className="rounded-xl overflow-hidden shadow-lg hidden md:block">
-                    <img src="/public/about_img.jpg" alt="Hero" />
+                    <img src="/about_img.jpg" alt="Hero" />
                 </div>
                 <div className="flex flex-col items-start gap-4 w-full md:w-1/2">
                     <h1 className="text-3xl text-primary-dark font-bold md:text-4xl lg:text-5xl">

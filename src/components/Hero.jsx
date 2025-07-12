@@ -41,7 +41,7 @@ const Hero = () => {
         </div>
 
         <div className="rounded-xl overflow-hidden shadow-lg">
-          <img src="/public/hero-img.jpg" alt="Hero" />
+          <img src="/hero-img.jpg" alt="Hero" />
         </div>
       </div>
     </>
