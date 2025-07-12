@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+body{
+  font-family: 'Poppins', sans-serif  ;
+}
+
+@theme {
+  --color-bg-primary: #F5E4FB;
+  --color-primary-light: #988FE6;
+  --color-primary: #6e32d9;
+  --color-box: #B365F7;
+  --color-primary-dark: #5c27b3;
+  --color-secondary: #f3f4f6;
+}
+
+/* index.css */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
