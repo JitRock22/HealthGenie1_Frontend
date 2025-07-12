@@ -1,16 +1,27 @@
-# HealthGenie Frontend
+# HealthGenie1 Frontend
 
-**HealthGenie1** is a modern, responsive frontend built with React and Vite, designed to support a health-focused web application. It offers fast development with hot-module reloading (HMR), clean code structure, and ESLint integration.
+**HealthGenie1** is an intelligent health assistant built with React and Vite that brings **AI-powered medical insights** to your fingertips. It seamlessly integrates with an advanced backend system capable of analyzing **medical images** and **voice symptoms**, giving users real-time health feedback — all from the comfort of a browser.
 
 ---
 
-## 🚀 Features
+## 🧠 Powered by AI
 
-- ⚡ **Fast Development** with Vite + React
-- 🔁 **Hot Module Replacement (HMR)**
-- 🧼 **ESLint** for code consistency
-- 🎨 Clean and modular component structure
-- 🧪 Ready for integration with APIs or backend services
+HealthGenie1 leverages AI in the backend to:
+
+- 🧬 **Analyze medical images** (like skin conditions, rashes, or wounds)
+- 🎤 **Understand user symptoms via voice input**
+- 💡 **Provide smart, preliminary health insights** based on uploaded data
+- 🤖 Acts as your **AI Doctor Assistant** — fast, intuitive, and always available
+
+---
+
+## 🚀 Frontend Features
+
+- ⚡ Lightning-fast with **Vite + React**
+- 🔁 **Hot Module Replacement** (HMR) for smooth dev experience
+- 🧼 Clean and modular **React component structure**
+- 🎨 Polished, scalable layout for health dashboards
+- 📦 Built to scale with AI and healthcare APIs
 
 ---
 
