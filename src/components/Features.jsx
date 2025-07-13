@@ -1,33 +1,34 @@
+import { Bot,ClockPlus,FileImage,Languages,Mic,TrendingUp } from 'lucide-react';
 import React from 'react';
 
 const featureData = [
   {
-    emoji: "🤖",
+    emoji: <Bot className='inline w-10 h-10 text-gray-500 hover:text-primary' />,
     title: "AI-Powered Symptom Checker",
     description: "Instantly understand potential causes of your symptoms with intelligent analysis.",
   },
   {
-    emoji: "🎙️",
+    emoji: <Mic className='inline w-10 h-10 text-gray-500 hover:text-primary' />,
     title: "Voice-Based Interaction",
     description: "Interact with HealthGenie using natural language voice commands.",
   },
   {
-    emoji: "🖼️",
+    emoji: <FileImage className='inline w-10 h-10 text-gray-500 hover:text-primary' />,
     title: "Image & Report Analysis",
     description: "Effortlessly analyze medical images and reports for accurate insights.",
   },
   {
-    emoji: "🕒",
+    emoji: <ClockPlus className='inline w-10 h-10 text-gray-500 hover:text-primary' />,
     title: "24/7 Virtual Health Assistant",
     description: "Get support anytime, even during late nights or emergencies.",
   },
   {
-    emoji: "📈",
+    emoji: <TrendingUp className='inline w-10 h-10 text-gray-500 hover:text-primary' />,
     title: "Health Score Tracking",
     description: "Receive a personalized health score to track your wellness over time.",
   },
   {
-    emoji: "🌐",
+    emoji: <Languages className='inline w-10 h-10 text-gray-500 hover:text-primary' />,
     title: "Multi-Language Support (Coming Soon)",
     description: "Communicate with HealthGenie in your preferred language.",
   },
