@@ -28,7 +28,7 @@ const LoginModal = ({ onClose }) => {
   };
 
   return (
-    <div className="fixed inset-0 bg-bg-primary bg-opacity-50 backdrop-blur-sm flex justify-center items-center z-50">
+    <div className="fixed inset-0 bg-black/40 backdrop-blur-sm  flex justify-center items-center z-50">
       <div className="bg-white rounded-2xl shadow-xl w-full max-w-md p-8 relative">
         <button onClick={onClose} className="absolute top-4 right-4 text-gray-400 hover:text-black">
           <X className="w-5 h-5" />
