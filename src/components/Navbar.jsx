@@ -41,7 +41,7 @@ const Navbar = () => {
         try {
             await signOut(auth);
             setDropdownOpen(false);
-            alert("Logged out!");
+            // alert("Logged out!");
         } catch (error) {
             alert("Logout failed: " + error.message);
         }
